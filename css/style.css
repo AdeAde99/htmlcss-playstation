@@ -5,3 +5,8 @@ html {
 .logo-Sony {
    width: 6rem;
 }
+
+.fa-bars {
+    font-size: 2rem;
+    font-weight: 300;
+}
