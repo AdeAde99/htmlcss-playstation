@@ -3,10 +3,16 @@ html {
 }
 
 .logo-Sony {
-   width: 6rem;
+   width: 5rem;
 }
 
 .fa-bars {
     font-size: 2rem;
-    font-weight: 300;
+    color: #737373;
+}
+
+.menu {
+    border: 1px solid lightgray;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
 }
