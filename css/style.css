@@ -30,17 +30,29 @@ html {
     vertical-align: middle;
 }
 
-
-.jumbotron {
-    background-color: aqua;
-}
-
 .returnal {
     height: 70vh;
     margin-top: 106px;
     object-fit: cover;
 }
 
-.img-fluid {
+.border-circle {
     border-radius: 20px;
+}
+
+.brightness {
+    position: relative;
+}
+
+.brightness::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    content: '';
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 2;
 }
