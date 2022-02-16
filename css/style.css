@@ -3,7 +3,7 @@ html {
 }
 
 .logo-Sony {
-   width: 5rem;
+   width: 6rem;
 }
 
 .menu {
@@ -39,4 +39,8 @@ html {
     height: 70vh;
     margin-top: 106px;
     object-fit: cover;
+}
+
+.img-fluid {
+    border-radius: 20px;
 }
