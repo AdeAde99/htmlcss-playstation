@@ -102,3 +102,11 @@ html {
 .btn {
     margin: 1px;
 }
+
+.transition {
+    transition: transform 1s ease;
+}
+
+.transition:hover {
+    transform: translateY(-2rem);
+}
