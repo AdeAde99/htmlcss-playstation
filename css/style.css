@@ -63,3 +63,42 @@ html {
 .brightness:hover::after {
     visibility: hidden;
 }
+
+.stile-link {
+    list-style: none; 
+}
+
+.link {
+    display: list-item;
+}
+
+.link::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #0d6efd; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+}
+.decorazione-no {
+    text-decoration: none;
+    color: black;
+}
+
+.effetto-ombra:hover {
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px;
+}
+
+.btn-hover {
+    border: 2px solid transparent;
+}
+
+
+.btn-hover:hover {
+    border: 2px solid black;
+}
+
+.btn {
+    margin: 1px;
+}
