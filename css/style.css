@@ -1,7 +1,6 @@
 html {
     font-family: 'Roboto', sans-serif;
 }
-
 .logo-Sony {
    width: 6rem;
 }
@@ -112,4 +111,27 @@ html {
 
 .transition:hover {
     transform: translateY(-2rem);
+}
+
+.bg-gray {
+    background-color: #1f1f1f;
+}
+
+.fs-0 {
+    font-size: 10px;
+}
+
+#element::-webkit-scrollbar {
+    display: none;
+}
+
+.plus-bg {
+    background-color: #bebcbb;
+}
+
+@media screen and (max-width:992px) {
+    .display-no {
+        display: none;
+        
+    }
 }
